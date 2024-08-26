@@ -1,0 +1,53 @@
+*{
+    font-family: "Titillium Web", sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+#container{
+    width: 100%;
+    height: 100vh;
+    /* vh- related to screen */
+    position: relative;    
+    /* placed in its normal position */
+}
+#navbar{
+    display: flex;
+    /* to make child elements into inline */
+    width: 85%;
+    margin-left: 100px;
+    justify-content: space-between;
+    /* to create space in between */
+    align-items: center;
+    /* vertically align items to center */
+}
+#logo{
+    width: 130px;
+}
+.listitem{
+    list-style: none;
+    /* to remove styling of list items */
+    display: inline;
+    /* side by side align cheyn */
+    margin: 10px 20px;
+    font-weight: 700;
+    /* to increase boldness */
+}
+li a:hover{
+    color: green;
+    font-size: 30px;
+}
+li a{
+    text-decoration: none;
+    /* to remove underlines */
+    color: brown;
+}
+#button{
+    background-color: brown;
+}
+#talk{
+    background-color: brown;
+    color: white;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 10px;
+}

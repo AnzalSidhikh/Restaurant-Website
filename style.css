@@ -1,0 +1,246 @@
+*{
+    font-family: "Titillium Web", sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+#container{
+    width: 100%;
+    height: 100vh;
+    /* vh- related to screen */
+    position: relative;    
+    /* placed in its normal position */
+    margin: 0px;
+    padding: 0px;
+}
+#navbar{
+    display: flex;
+    /* to make child elements into inline */
+    width: 85%;
+    margin-left: 100px;
+    justify-content: space-between;
+    /* to create space in between */
+    align-items: center;
+    /* vertically align items to center */
+}
+#logo{
+    width: 130px;
+}
+.listitem{
+    list-style: none;
+    /* to remove styling of list items */
+    display: inline;
+    /* side by side align cheyn */
+    margin: 10px 20px;
+    font-weight: 700;
+    /* to increase boldness */
+}
+li a:hover{
+    color: green;
+    font-size: 30px;
+}
+li a{
+    text-decoration: none;
+    /* to remove underlines */
+    color: brown;
+}
+#talk{
+    background-color: brown;
+    color: white;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 10px;
+}
+#title{
+    margin-right : 8%;
+    margin-top: -35%;
+    margin-left: 8%;
+    height: 500px;
+}
+#home{
+    background-image: url(https://images.arla.com/recordid/15F33607-F6D9-4952-B6AA210D3033BF14/club-sandwich1.jpg?format=jpg&width=1300&height=525&mode=crop);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+#zomato{
+    width: 10%;
+}
+#links{
+    margin-left: 8%;
+    background-repeat: no-repeat;
+
+}
+#title h1{
+    color: green;
+    font-size: 50px;
+    position: absolute;
+    margin-top: 100px; 
+}
+#cafe{
+    color: black;
+}
+#title h2{
+    position: absolute;
+    margin-top: 170px; 
+    font-size: 40px;
+    color: #F4B516;  
+}
+#title h3{
+    position: absolute;
+    margin-top: 400px;   
+    font-size: 35px;
+    color: #f2f7f2;
+    margin-left: 65%;
+}
+#title h3 span{
+    color: #c2b97f;
+}
+#container-menu{
+    margin-top: 100px;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+#menu{
+    background-image: url(./images/background\ menu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1300px;
+}
+#container-menu h1{
+    position: absolute;
+    margin-left: 40%;
+    margin-top:5%;
+    font-size: 40px;
+    color: whitesmoke;
+}
+#container-menu span{
+    color: #F4B516;
+
+}
+#container-food{
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 7rem;
+    margin-top: 15rem;
+    margin-left: 6rem;
+}
+#about{
+    background-color: #EDEDED;
+}
+#container-food h1{
+    position: absolute;
+    margin-top: 24rem;
+    margin-left: 1rem;
+}
+#container-about{
+    margin-top: 100px;
+    background-color: #EDEDED;
+    display: flex;
+    justify-content: space-between;
+}
+#container-about p{
+    margin-left: 100px;
+    margin-top: 50px;
+    font-weight: 600;
+}
+#footer{
+    background-color: #F5D63B;
+}
+#icon{
+    display: flex;
+    margin-left: 45%; 
+}
+#icon{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    margin-top: 3%;
+    margin-bottom: 20px;
+}
+.icon-sy{
+    width: 800px;
+    height: 50px;
+    /* border: 1px solid red; */
+    /* margin: 0px 10px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-left: -550px;
+}
+#location h3{
+    margin-left: 450px;
+}
+#location h4{
+    margin-left: 700px;
+    font-size: 20px;
+    margin-top: -90px;
+}
+#location h5{
+    margin-left: 900px;
+    font-size: 20px;
+    margin-top: -30px;
+}
+#contact{
+    margin-top: 5%;
+    
+    
+}
+
+.icon-set{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    margin-bottom: 20px;
+}
+.icon,.up-arrow{
+    width: 50px;
+    height: 50px;
+    /* border: 1px solid red; */
+    margin: 0px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.icon i{
+    color: black;
+    
+
+}
+
+.icon:hover{
+    background-image: linear-gradient(to bottom right, yellow,rgb(255, 85 ,0));
+    animation: shake 0.75s;
+}
+.icon:hover i{
+    color: white;
+}
+@keyframes shake{
+    10%{
+        transform: rotate(15deg);
+
+    }
+    20%{
+        transform: rotate(-15deg);
+
+    }
+    30%{
+        transform: rotate(15deg);
+
+
+    }
+    40%{
+        transform: rotate(-15deg);
+
+    }
+}
+
+
+
+
+
